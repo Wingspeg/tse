@@ -1,0 +1,44 @@
+{
+  "participants": 10,
+  "noise_energy_shapley": 91753.93,
+  "noise_energy_uniform": 93047.52,
+  "noise_savings_pct": 1.4,
+  "configs": [
+    {
+      "name": "Full (Ours)",
+      "shapley": true,
+      "folding": true,
+      "accuracy": 0.781,
+      "residual_mi": 0.4271,
+      "verify_ms": 0.0023,
+      "proof_bytes": 32
+    },
+    {
+      "name": "w/o Shapley (uniform)",
+      "shapley": false,
+      "folding": true,
+      "accuracy": 0.7797,
+      "residual_mi": 0.4251,
+      "verify_ms": 0.0023,
+      "proof_bytes": 32
+    },
+    {
+      "name": "w/o Folding (naive)",
+      "shapley": true,
+      "folding": false,
+      "accuracy": 0.781,
+      "residual_mi": 0.4271,
+      "verify_ms": 0.4866,
+      "proof_bytes": 320
+    },
+    {
+      "name": "w/o Both",
+      "shapley": false,
+      "folding": false,
+      "accuracy": 0.7797,
+      "residual_mi": 0.4251,
+      "verify_ms": 0.4866,
+      "proof_bytes": 320
+    }
+  ]
+}

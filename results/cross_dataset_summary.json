@@ -1,0 +1,35 @@
+{
+  "theta": 0.5,
+  "datasets": [
+    {
+      "dataset": "cifar10",
+      "label": "CIFAR-10",
+      "final_accuracy": 0.4534,
+      "rounds": 3,
+      "final_mi": 0.5132,
+      "converged": false,
+      "all_verified": true,
+      "avg_round_time": 29.9
+    },
+    {
+      "dataset": "mnist",
+      "label": "MNIST",
+      "final_accuracy": 0.9939,
+      "rounds": 15,
+      "final_mi": 0.5684,
+      "converged": false,
+      "all_verified": true,
+      "avg_round_time": 24.2
+    },
+    {
+      "dataset": "fashion_mnist",
+      "label": "Fashion-MNIST",
+      "final_accuracy": 0.9213,
+      "rounds": 15,
+      "final_mi": 0.4317,
+      "converged": true,
+      "all_verified": true,
+      "avg_round_time": 24.2
+    }
+  ]
+}

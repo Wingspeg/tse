@@ -1,0 +1,41 @@
+{
+  "raw_mi": 0.4459,
+  "theta": 0.5,
+  "noise_uniform": 95393.92,
+  "noise_shapley": 93916.67,
+  "noise_savings_pct": 1.5,
+  "methods": [
+    {
+      "method": "FedAvg (no privacy)",
+      "accuracy": 0.89,
+      "residual_mi": 0.4459,
+      "verifiable": false,
+      "cross_element": false,
+      "epsilon": null
+    },
+    {
+      "method": "FedAvg + Uniform DP",
+      "accuracy": 0.7796,
+      "residual_mi": 0.4232,
+      "verifiable": false,
+      "cross_element": true,
+      "epsilon": 1.0
+    },
+    {
+      "method": "FedAvg + Secure Aggregation",
+      "accuracy": 0.89,
+      "residual_mi": 0.4459,
+      "verifiable": true,
+      "cross_element": false,
+      "epsilon": null
+    },
+    {
+      "method": "Ours (Shapley + Folding)",
+      "accuracy": 0.781,
+      "residual_mi": 0.4153,
+      "verifiable": true,
+      "cross_element": true,
+      "epsilon": 1.0
+    }
+  ]
+}

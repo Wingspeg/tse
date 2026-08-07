@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+type: software
+title: "Privacy-Enhanced Federated Learning Framework"
+version: 0.1.0
+date-released: 2026-08-06
+license: MIT
+# Replace with real author / paper metadata when the paper is accepted.
+authors:
+  - family-names: "Author"
+    given-names: "Placeholder"
+keywords:
+  - federated learning
+  - differential privacy
+  - shapley value
+  - lattice cryptography
+  - folding proof
+  - renyi mutual information
+repository-code: "https://github.com/your-org/privacy_enhanced_framework"
