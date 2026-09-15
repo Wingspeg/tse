@@ -1,4 +1,4 @@
-# Privacy-Enhanced Federated Learning Framework
+# Trusted Security Enhancement for Privacy-Preserving Computation: A Unified Representation Framework for Algorithm, Computing Power and Data
 
 A research framework that combines **Shapley-guided adaptive differential privacy**
 with **lattice-based collaborative folding proofs** for verifiable federated
